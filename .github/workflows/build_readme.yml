@@ -2,3 +2,45 @@ name: Update README.md
 
 on:
   workflow_dispatch:
+  push:
+  schedule:
+    - cron: '55 7 * * 1-5'        # Weekdays at 7:55
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: buildenv
+    steps:
+      - name: Trigger event
+        run: echo "Triggered by ${{ github.event_name }}"
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          npm install
+      - name: Build source
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          REPO: ${{ github.repository_owner }}
+          USERNAME: ${{ github.repository_owner }}
+          MEDIUM_ID: ${{ vars.MEDIUM_ID }}
+          DEVTO_ID: ${{ vars.DEVTO_ID }}
+          DOLBYIO_ID: ${{ vars.DOLBYIO_ID }}
+        run: |
+          npm start
+      - name: Check for changes
+        run: |-
+          if git diff --exit-code; then
+            echo "README_CHANGED=0" >> "$GITHUB_ENV"
+          else
+            echo "README_CHANGED=1" >> "$GITHUB_ENV"
+            git diff
+          fi
+      - name: Commit change
+        if: env.README_CHANGED != 0
+        run: |-
+          git config user.name "GitHub Action: ${{ github.workflow }} #${{ github.run_number }}"
+          git config user.email "<>"
+          git add README.md
+          git commit -m 'GitHub Action: ${{ github.workflow }} #${{ github.run_number }}'
+          git push
