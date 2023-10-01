@@ -15,6 +15,7 @@
         </a>
 </div>
 
+<br> <br>
 
 <!-- src/template/content.liquid -->
 <div id="social" style="display: flex; flex-direction: column; width: 854px; justify-content: center; padding: 0 64px">
