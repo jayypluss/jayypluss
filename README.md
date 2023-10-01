@@ -33,5 +33,10 @@
 
 <img src="https://github-profile-trophy.vercel.app/?username=jayypluss&theme=dracula" alt="Trophies"/>
 <br>
+<br>
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=jayypluss" alt="Views"/>
+<br>
 
 </div>
