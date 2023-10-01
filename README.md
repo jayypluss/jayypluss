@@ -29,6 +29,7 @@
 <img src="https://github-readme-stats.vercel.app/api?username=jayypluss&theme=jolly&show_icons=true&hide=prs,contribs" alt="Profile Stats"/>
 <br>
 <br>
+<br>
 
 <img src="https://github-profile-trophy.vercel.app/?username=jayypluss&theme=dracula" alt="Trophies"/>
 <br>
