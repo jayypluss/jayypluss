@@ -36,6 +36,9 @@ jobs:
             echo "README_CHANGED=1" >> "$GITHUB_ENV"
             git diff
           fi
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
       - name: Commit change
         if: env.README_CHANGED != 0
         run: |-
