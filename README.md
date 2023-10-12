@@ -38,13 +38,6 @@
 
 <!--START_SECTION:waka-->
 
-```txt
-TypeScript       1 hr 10 mins    ████████████████████████░   96.32 %
-TSConfig         1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.27 %
-JSON             0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.87 %
-JavaScript       0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.22 %
-HTML             0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 %
-```
 
 <!--END_SECTION:waka-->
 
