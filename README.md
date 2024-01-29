@@ -38,6 +38,11 @@
 
 <!--START_SECTION:waka-->
 
+```txt
+TypeScript   0 secs          █████████████▓░░░░░░░░░░░   54.56 %
+Markdown     0 secs          ███████████░░░░░░░░░░░░░░   43.54 %
+CSS          0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.89 %
+```
 
 <!--END_SECTION:waka-->
 
