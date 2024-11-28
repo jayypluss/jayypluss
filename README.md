@@ -38,6 +38,12 @@
 
 <!--START_SECTION:waka-->
 
+```txt
+Markdown     0 secs          ████████████████▒░░░░░░░░   64.77 %
+TypeScript   0 secs          █████░░░░░░░░░░░░░░░░░░░░   19.39 %
+Text         0 secs          ██▓░░░░░░░░░░░░░░░░░░░░░░   11.05 %
+JSON         0 secs          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.79 %
+```
 
 <!--END_SECTION:waka-->
 
