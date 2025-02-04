@@ -39,10 +39,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown     0 secs          █████████████▒░░░░░░░░░░░   53.19 %
-TypeScript   0 secs          ███████░░░░░░░░░░░░░░░░░░   28.16 %
-JSON         0 secs          ███▒░░░░░░░░░░░░░░░░░░░░░   13.82 %
-Text         0 secs          █▒░░░░░░░░░░░░░░░░░░░░░░░   04.83 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
