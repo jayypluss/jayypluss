@@ -38,6 +38,13 @@
 
 <!--START_SECTION:waka-->
 
+```txt
+TypeScript       1 hr 11 mins    ███████░░░░░░░░░░░░░░░░░░   28.36 %
+JSON             1 hr 6 mins     ██████▓░░░░░░░░░░░░░░░░░░   26.53 %
+Markdown         44 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.62 %
+JavaScript       38 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   15.25 %
+textmate         7 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.93 %
+```
 
 <!--END_SECTION:waka-->
 
