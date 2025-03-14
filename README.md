@@ -39,10 +39,10 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Markdown         11 mins         ██████████████████░░░░░░░   71.55 %
-TypeScript       4 mins          ███████░░░░░░░░░░░░░░░░░░   27.47 %
-GitIgnore file   0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.90 %
-JSON             0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
+TypeScript       50 mins         ████████████████████▒░░░░   81.65 %
+Markdown         11 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.10 %
+GitIgnore file   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 %
+JSON             0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 ```
 
 <!--END_SECTION:waka-->
