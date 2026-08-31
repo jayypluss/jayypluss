@@ -15,7 +15,33 @@
 
 
 <!-- src/template/contact.liquid -->
-[![header-image](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathanfk/) [![header-image](assets/notion_badge.png)](https://jayypluss.notion.site/Portfolio-d1e992c932fe4d01b21b8bb5843aa4c1)
+![header-image](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white) [![header-image](assets/notion_badge.png)](https://jayypluss.notion.site/Portfolio-d1e992c932fe4d01b21b8bb5843aa4c1)
+<br>
+<br>
+
+
+<!-- src/template/content.liquid -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayypluss&theme=jolly&hide=c%2B%2B" alt="Top Languages"/>
+<br>
+<br>
+<br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=jayypluss&theme=jolly&show_icons=true&hide=prs,contribs" alt="Profile Stats"/>
+<br>
+<br>
+<br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=jayypluss&theme=dracula" alt="Trophies"/>
+<br>
+<br>
+<br>
+
+<!--START_SECTION:waka-->
+
+
+<!--END_SECTION:waka-->
+
+<br>
 <br>
 <br>
 
